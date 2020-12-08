@@ -1,6 +1,11 @@
 from django.db import models
 import random
 import string
+from django.conf import settings
+
+
+host =  settings.ALLOWED_HOSTS[-1]
+
 
 # Create your models here.
 class Link(models.Model):

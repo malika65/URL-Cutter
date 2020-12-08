@@ -41,7 +41,7 @@
       <div class="d-flex justify-content-center align-items-center container">
         <div class="card" style="width: 18rem;">
           <div class="card-body">
-            <a target="_blank" href="{% url 'app:redir' new_link=link.new_link %}" class="card-link">{{link.new_link}}</a><br>
+            <a target="_blank" href="{% url 'app:redir' new_link=link.new_link %}" class="card-link">{{host}}/{{link.new_link}}</a><br>
             <!-- <a href="#" class="card-link">{{link.old_link}}</a> -->
           </div>
         </div>
